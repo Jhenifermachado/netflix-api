@@ -2,5 +2,9 @@ body{
   background-color: black;
 }
 h1{
-  color: red
+  color: red;
+}
+
+.cor1{
+  background-color:#f58742 ;
 }

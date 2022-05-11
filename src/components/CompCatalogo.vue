@@ -7,24 +7,20 @@ export default {
     return {
       producoes: [
         {
+          
           tipo: "FILMES",
           producoes: [
             {
-              nome: "PS! Eu ainda te amo",
-              imagem: new URL("./imgs/ps_ainda_amo_voce.jpg", import.meta.url)
-                .href,
+              nome: "vingadores",
+              imagem: new URL("./imgs/vingadores.png", import.meta.url).href,
             },
             {
-              nome: "Para todos os garotos que já amei",
-              imagem: new URL(
-                "./imgs/Para_todos_os_garotos_que_ja_amei_.jpg",
-                import.meta.url
-              ).href,
+              nome: "mulan",
+              imagem: new URL("./imgs/mulan.jpeg", import.meta.url).href,
             },
             {
-              nome: "Barraca do Beijo",
-              imagem: new URL("./imgs/barraca do beijo.jpg", import.meta.url)
-                .href,
+              nome: "emchamas",
+              imagem: new URL("./imgs/emchamas.jpeg", import.meta.url).href,
             },
             {
               nome: "Barraca do Beijo 2",
@@ -32,11 +28,8 @@ export default {
                 .href,
             },
             {
-              nome: "Barraca do Beijo 3",
-              imagem: new URL(
-                "./imgs/a barraca do beijo 3.jpg",
-                import.meta.url
-              ).href,
+              nome: "xmen",
+              imagem: new URL("./imgs/xmen.jpeg", import.meta.url).href,
             },
           ],
         },

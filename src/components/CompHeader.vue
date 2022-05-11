@@ -1,10 +1,9 @@
 <template>
   <div class="nome text-center">
-    <h1>JHENI FLIX</h1>
+    <h1>SITEFLIX</h1>
   </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">FLIX</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -22,10 +21,10 @@
           style="--bs-scroll-height: 100px"
         >
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#"></a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -36,7 +35,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Link
+              Opções
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -44,9 +43,6 @@
               <li><hr class="dropdown-divider" /></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Link</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -61,4 +57,47 @@
       </div>
     </div>
   </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          class="d-block w-100"
+          src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+          alt="Primeiro Slide"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100"
+          src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide"
+          alt="Segundo Slide"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100"
+          src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide"
+          alt="Terceiro Slide"
+        />
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleControls"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleControls"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
 </template>
