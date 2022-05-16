@@ -8,3 +8,7 @@ h1{
 .cor1{
   background-color:#f58742 ;
 }
+.carousel-inner > .carousel-item > img {
+  width: 400px;
+  height: 400px; 
+}

@@ -23,26 +23,15 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+             <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Filmes</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarScrollingDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Opções
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+             <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Séries</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Doramas</a>
+            
           </li>
         </ul>
         <form class="d-flex">
@@ -61,23 +50,17 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
+          id="aven"
           class="d-block w-100"
-          src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+          src="./imgs/torre.jpg"
           alt="Primeiro Slide"
         />
       </div>
       <div class="carousel-item">
         <img
           class="d-block w-100"
-          src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide"
+          src="./imgs/attack.jpeg"
           alt="Segundo Slide"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="d-block w-100"
-          src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide"
-          alt="Terceiro Slide"
         />
       </div>
     </div>
@@ -87,8 +70,6 @@
       role="button"
       data-slide="prev"
     >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
     </a>
     <a
       class="carousel-control-next"
@@ -96,8 +77,6 @@
       role="button"
       data-slide="next"
     >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
     </a>
   </div>
 </template>
